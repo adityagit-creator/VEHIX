@@ -1,0 +1,19 @@
+.footer-wrapper {
+  background-color: #1f3e72;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-social {
+  display: flex;
+  gap: 1.4rem;
+}
+.footer-social > i {
+  color: white;
+}
+.footer-social > i:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}

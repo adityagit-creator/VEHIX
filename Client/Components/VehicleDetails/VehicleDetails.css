@@ -1,0 +1,55 @@
+.v-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.add-vehicle {
+  width: 50%;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.1);
+}
+.add-vehicle > :nth-child(2) {
+  background-color: white;
+}
+.vehicles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.display-vehicles {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.vehicle-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: fit-content;
+}
+.update-service-details {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 2rem;
+}
+.setting-date {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.service-reminders {
+  margin-top: 3rem;
+  margin-bottom: 9rem;
+}
+.service-reminders > h1 {
+  margin-bottom: 1.5rem;
+}

@@ -1,0 +1,42 @@
+.ratings-wrapper {
+  background-color: rgba(196, 248, 252, 0.164);
+}
+.ratings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rating {
+  height: 400px;
+  width: 290px;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.334);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.rating > :nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.reveiw {
+  padding: 10px;
+  color: #1f3e72;
+}
+.author-name {
+  color: #1f3e72;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 1rem;
+}
+.rating > hr {
+  width: 40px;
+  margin: 0 10px;
+  height: 3px;
+  background-color: #1f3e72;
+}
+.rating:hover{
+    transform: scale(1.03);
+}

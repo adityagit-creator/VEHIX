@@ -1,0 +1,26 @@
+.h-wrapper {
+  margin-bottom: 50px;
+}
+.h-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #ccc;
+}
+.h-menu {
+  gap: 4rem;
+}
+.h-login {
+  gap: 1rem;
+}
+.h-container > img:hover {
+  cursor: pointer;
+}
+.h-menu > a:hover {
+  transform: scale(1.1);
+}
+.notification-icon:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}

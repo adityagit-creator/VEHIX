@@ -1,0 +1,23 @@
+.login-container {
+  display: flex;
+}
+.login-left {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.login-heading {
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+.login-form > :nth-child(3) {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-button {
+  width: 100%;
+}

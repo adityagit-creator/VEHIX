@@ -1,0 +1,18 @@
+.features-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.feature-desc {
+  display: flex;
+  flex-direction: column;
+}
+.feature > img {
+  width: 300px;
+}
